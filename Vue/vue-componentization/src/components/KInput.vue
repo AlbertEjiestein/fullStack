@@ -20,7 +20,7 @@ export default {
       this.$emit("input", e.target.value);
 
       // 告诉父组件输入的值，用于校验
-      this.$parent.$emit("validate", e.target.value);
+      this.$parent.$emit("validate");
     }
   }
 }
