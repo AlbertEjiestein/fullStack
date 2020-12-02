@@ -24,7 +24,7 @@ import KFormItem from "./KFormItem";
 import KInput from "./KInput.vue";
 import KCheckBox from "./KCheckBox";
 import Notice from "../Notice";
-import create from '../utils/create';
+import create from '../../utils/create';
 
 export default {
   components: {

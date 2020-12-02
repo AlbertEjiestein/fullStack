@@ -1,5 +1,9 @@
-export default {
-  namespaced: true,
+import Vue from 'vue';
+import Vuex from '../kvuex.js';
+
+Vue.use(Vuex);
+
+export default new Vuex.Store({
   state: {
     count: 0
   },
@@ -23,4 +27,4 @@ export default {
       })
     }
   }
-}
+})

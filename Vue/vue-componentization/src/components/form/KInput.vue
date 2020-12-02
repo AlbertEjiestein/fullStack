@@ -2,7 +2,7 @@
   <input type="text" :value="value" @input="onInput" >
 </template>
 <script>
-import emitter from '../mixins/emmiter';
+import emitter from '../../mixins/emmiter';
 
 export default {
   name: "KInput",
