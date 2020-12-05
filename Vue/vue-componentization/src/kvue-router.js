@@ -1,3 +1,10 @@
+/* 
+1. 创建响应式变量存储当前路由
+2. 创建监听事件,监听当前路由变化时,更新路由,并更新dom
+3. 创建路由映射表,解析路由配置信息
+4. 创建router-link和router-view全局组件
+*/
+
 let Vue;
 
 class VueRouter {
